@@ -31,4 +31,214 @@
         </div>
     </header>
 
-    
+    <!-- Order Hero -->
+    <section class="order-hero">
+        <div class="container">
+            <h1>Order Your Cake</h1>
+            <p>Let us create something sweet for your special occasion</p>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="order-form-section">
+        <div class="container">
+            <div class="order-form-container">
+                <div class="order-info">
+                    <h2>Order Details</h2>
+                    <p>Please fill out the form below to place your order. We'll contact you within 24 hours to confirm details and discuss payment.</p>
+                    
+                    <div class="order-tips">
+                        <h3>Ordering Tips:</h3>
+                        <ul>
+                            <li>Please order at least 72 hours in advance</li>
+                            <li>For wedding cakes, we recommend ordering 4-6 weeks ahead</li>
+                            <li>Custom designs may require a consultation</li>
+                            <li>Delivery available for orders over $100</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <form class="order-form">
+                    <h2>Custom Cake Order Form</h2>
+                    
+                    <!-- Personal Information -->
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Order Details -->
+                    <fieldset>
+                        <legend>Order Details</legend>
+                        <div class="form-group">
+                            <label for="date">Pickup/Delivery Date*</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Approximate Time Needed*</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="occasion">Occasion*</label>
+                            <select id="occasion" name="occasion" required>
+                                <option value="">Select an occasion</option>
+                                <option value="birthday">Birthday</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="anniversary">Anniversary</option>
+                                <option value="baby-shower">Baby Shower</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="servings">Number of Servings*</label>
+                            <input type="number" id="servings" name="servings" min="1" required>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Cake Selection -->
+                    <fieldset>
+                        <legend>Cake Selection</legend>
+                        <div class="form-group">
+                            <label>Cake Type*</label>
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="cake-type" value="standard" checked>
+                                    Standard Cake (From Menu)
+                                </label>
+                                <label>
+                                    <input type="radio" name="cake-type" value="custom">
+                                    Custom Design
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group" id="standard-cake-group">
+                            <label for="standard-cake">Select Cake*</label>
+                            <select id="standard-cake" name="standard-cake">
+                                <option value="">Choose from menu</option>
+                                <option value="vanilla">Classic Vanilla Bean</option>
+                                <option value="chocolate">Chocolate Decadence</option>
+                                <option value="red-velvet">Red Velvet Dream</option>
+                                <option value="lemon">Lemon Blueberry Bliss</option>
+                                <option value="carrot">Carrot Cake</option>
+                            </select>
+                        </div>
+                        <div class="form-group hidden" id="custom-cake-group">
+                            <label for="custom-description">Custom Cake Description*</label>
+                            <textarea id="custom-description" name="custom-description" placeholder="Describe your vision, including flavors, design, colors, etc."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="allergies">Allergies/Dietary Restrictions</label>
+                            <input type="text" id="allergies" name="allergies" placeholder="e.g., nut allergy, gluten-free, etc.">
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Delivery Options -->
+                    <fieldset>
+                        <legend>Delivery Options</legend>
+                        <div class="form-group">
+                            <label>Pickup or Delivery*</label>
+                            <div class="radio-group">
+                                <label>
+                                    <input type="radio" name="delivery" value="pickup" checked>
+                                    I'll Pick Up
+                                </label>
+                                <label>
+                                    <input type="radio" name="delivery" value="delivery">
+                                    Delivery (+300 birr)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group hidden" id="delivery-address-group">
+                            <label for="address">Delivery Address*</label>
+                            <textarea id="address" name="address" placeholder="Street address, city, zip code"></textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <!-- Additional Information -->
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" placeholder="Any additional details or requests"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>How did you hear about us?</label>
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="referral" value="social-media">
+                                    Social Media
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="referral" value="friend">
+                                    Friend/Family
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="referral" value="search">
+                                    Online Search
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="referral" value="other">
+                                    Other
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn">Submit Order Request</button>
+                        <p>We'll contact you to confirm details and discuss payment options.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Process -->
+    <section class="order-process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Order Process</h2>
+                <p>How we create your perfect cake</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Place Your Order</h3>
+                    <p>Fill out our order form with your details and cake preferences</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Consultation</h3>
+                    <p>We'll contact you within 24 hours to discuss details</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Confirmation</h3>
+                    <p>We'll send a final design and price confirmation</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Payment</h3>
+                    <p>A 50% deposit secures your order date</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <h3>Enjoy!</h3>
+                    <p>Pick up or receive delivery of your beautiful creation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
