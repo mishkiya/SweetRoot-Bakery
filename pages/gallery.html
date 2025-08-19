@@ -3,11 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SweetRoot Bakery-Gallery</title>
+    <title>SweetRoot Bakery Gallery - Our Sweet Creations</title>
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/gallery.css">
 </head>
 <body>
-  
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="../public/images/logo-1-primary.png" alt="SweetRoot Bakery Logo">
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <div class="container">
+            <h1>Our Sweet Gallery</h1>
+            <p>Browse through our delicious creations</p>
+        </div>
+    </section>
+
+    <!-- Gallery Navigation -->
+    <section class="gallery-nav">
+        <div class="container">
+            <div class="gallery-categories">
+                <a href="#wedding" class="gallery-category active">Wedding Cakes</a>
+                <a href="#birthday" class="gallery-category">Birthday Cakes</a>
+                <a href="#special" class="gallery-category">Special Occasions</a>
+                <a href="#seasonal" class="gallery-category">Seasonal Treats</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Cakes Gallery -->
+    <section id="wedding" class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Wedding Cakes</h2>
+                <p>Elegant creations for your special day</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../public/images/wedding_cake_1.jpg" alt="Wedding Cake 1">
+                    <div class="overlay">
+                        <h3>Classic Elegance</h3>
+                        <p>Three-tier vanilla cake with buttercream flowers</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/wedding_cake_2.jpg" alt="Wedding Cake 2">
+                    <div class="overlay">
+                        <h3>Modern Romance</h3>
+                        <p>Naked cake with fresh berries and greenery</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/wedding_cake_3.jpg" alt="Wedding Cake 3">
+                    <div class="overlay">
+                        <h3>Rustic Charm</h3>
+                        <p>Woodland-themed cake with edible flowers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Cakes Gallery -->
+    <section id="birthday" class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Birthday Cakes</h2>
+                <p>Celebrate in sweet style</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../public/images/cake_1.jpg" alt="Birthday Cake 1">
+                    <div class="overlay">
+                        <h3>Rainbow Delight</h3>
+                        <p>Colorful layers with vanilla buttercream</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/cake_2.jpg" alt="Birthday Cake 2">
+                    <div class="overlay">
+                        <h3>Chocolate Extravaganza</h3>
+                        <p>Triple chocolate with chocolate curls</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/cake_3.jpg" alt="Birthday Cake 3">
+                    <div class="overlay">
+                        <h3>Princess Castle</h3>
+                        <p>Vanilla cake with turrets and flags</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Occasions Gallery -->
+    <section id="special" class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Special Occasions</h2>
+                <p>Cakes for all of life's celebrations</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../public/images/anniversary-photo.jpg" alt="Special Cake 1">
+                    <div class="overlay">
+                        <h3>Anniversary</h3>
+                        <p>Elegant two-tier with gold accents</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/baby shower-photo.jpg" alt="Special Cake 2">
+                    <div class="overlay">
+                        <h3>Baby Shower</h3>
+                        <p>Gender reveal cake with pastel colors</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../public/images/graduation_cake_4.jpg" alt="Special Cake 3">
+                    <div class="overlay">
+                        <h3>Graduation</h3>
+                        <p>Cap and diploma decorations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Treats Gallery -->
+    <section id="seasonal" class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Seasonal Treats</h2>
+                <p>Celebrating the flavors of each season</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/seasonal-1.jpg" alt="Seasonal Treat 1">
+                    <div class="overlay">
+                        <h3>Spring Blooms</h3>
+                        <p>Floral-inspired cupcakes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/seasonal-2.jpg" alt="Seasonal Treat 2">
+                    <div class="overlay">
+                        <h3>Summer Berries</h3>
+                        <p>Fresh berry tarts and cakes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/seasonal-3.jpg" alt="Seasonal Treat 3">
+                    <div class="overlay">
+                        <h3>Autumn Spice</h3>
+                        <p>Pumpkin and spice creations</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/seasonal-4.jpg" alt="Seasonal Treat 4">
+                    <div class="overlay">
+                        <h3>Winter Wonderland</h3>
+                        <p>Holiday-themed desserts</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/seasonal-5.jpg" alt="Seasonal Treat 5">
+                    <div class="overlay">
+                        <h3>Valentine's Day</h3>
+                        <p>Romantic heart-shaped treats</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/seasonal-6.jpg" alt="Seasonal Treat 6">
+                    <div class="overlay">
+                        <h3>Halloween</h3>
+                        <p>Spooky and fun creations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Inspired by Our Creations?</h2>
+                <p>Let us create something special for your next occasion</p>
+                <a href="order.html" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="logo">SweetRoot</a>
+                <p>Artisan bakery creating sweet memories since 2015</p>
+                <div class="social-links">
+                    <a href="#"><img src="../public/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="../public/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="../public/icons/telegram.svg" alt="Telegram"></a>
+                </div>
+                <p class="copyright">&copy; 2025 SweetRoot Bakery. All rights reserved by Mishkiya.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

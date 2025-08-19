@@ -1,8 +1,7 @@
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(248, 200, 220, 0.3), rgba(181, 234, 215, 0.3)), 
-                url('../public/images/photo_welcome.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(248, 200, 220, 0.3), rgba(181, 234, 215, 0.3));
     display: flex;
     align-items: center;
     text-align: center;
