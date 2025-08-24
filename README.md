@@ -30,24 +30,26 @@ File Structure
 
 SWEETROOT-BAKERY
 
-├── Pages/
-│   ├── about.html
-│   ├── menu.html
-│   ├── gallery.html
-│   ├── order.html
-│   └── contact.html
-├── styles/
-│   ├── base.css
-│   ├── index.css
-│   ├── about.css
-│   ├── menu.css
-│   ├── gallery.css
-│   ├── order.css
-│   └── contact.css
-├── public/
-│   ├── images/
-│   └── icons/
-├── index.html
-└── README.md
+SWEETROOT-BAKERY
+    |-Public
+    |    |icon
+    |    |images
+    |
+    |-Pages
+    |   |contact.html  
+    |   |about.html  
+    |   |menu.html  
+    |   |order.html  
+    |   |gallery.html  
+    |
+    |-Styles
+    |   |base.css //common to all pages 
+    |   |index.css
+    |   |contact.css
+    |   |about.css
+    |   |order.css
+    |   |gallery.css
+    |   |menu.css
+    |-index.html   
 
 This project is created as a project given as part of the Nexus Front-End Boot Camp.
