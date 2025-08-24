@@ -25,31 +25,4 @@ The website  mainly uses a consistent design system with CSS variables:
 · Secondary Color: Mint green (#B5EAD7)
 · Accent Color: Cream (#FDEED6)
 
-
-File Structure
-
-SWEETROOT-BAKERY
-    ├── Public
-    │   ├── icon
-    │   └── images
-    │
-    ├── Pages
-    │   ├── contact.html  
-    │   ├── about.html  
-    │   ├── menu.html  
-    │   ├── order.html  
-    │   └── gallery.html  
-    │
-    ├── Styles
-    │   ├── base.css       // common to all pages 
-    │   ├── index.css
-    │   ├── contact.css
-    │   ├── about.css
-    │   ├── order.css
-    │   ├── gallery.css
-    │   └── menu.css
-    │
-    └── index.html
-
-
 This project is created as a project given as part of the Nexus Front-End Boot Camp.
